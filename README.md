@@ -40,5 +40,5 @@ relivro/
 ##  Tecnologias
 
 - **Linguagem:** Java
-- **Banco de Dados:** [MySQL/SUPABASE]
+- **Banco de Dados:**  PostgreSQL (Supabase)
 - **Arquitetura:** Camadas (model, dao, service)
