@@ -37,7 +37,7 @@ relivro/
 └── database/     # Script SQL de criação das tabelas
 ```
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - **Linguagem:** Java
 - **Banco de Dados:** [MySQL/SUPABASE]
