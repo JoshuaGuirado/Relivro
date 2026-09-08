@@ -2,12 +2,12 @@
 
 Plataforma web para doação e reaproveitamento de livros, conectando pessoas que desejam doar livros que não usam mais com pessoas que precisam de acesso à leitura e material de estudo.
 
-## 🎯 ODS Relacionados
+##  ODS Relacionados
 
-- **ODS 4 — Educação de Qualidade**: amplia o acesso a livros e materiais de estudo para quem não tem condições de comprá-los.
-- **ODS 10 — Redução das Desigualdades**: reduz a desigualdade de acesso à leitura e à educação entre diferentes classes sociais.
+ **ODS 4 — Educação de Qualidade**: amplia o acesso a livros e materiais de estudo para quem não tem condições de comprá-los.
+ **ODS 10 — Redução das Desigualdades**: reduz a desigualdade de acesso à leitura e à educação entre diferentes classes sociais.
 
-## 📋 Requisitos do Sistema
+##  Requisitos do Sistema
 
 1. O sistema deve permitir o cadastro de usuários, com nome completo, e-mail, telefone, endereço e tipo de perfil (doador ou solicitante).
 2. O sistema deve permitir o cadastro de livros disponíveis para doação, com título, autor, categoria/gênero, estado de conservação e usuário doador responsável.
@@ -16,7 +16,7 @@ Plataforma web para doação e reaproveitamento de livros, conectando pessoas qu
 5. O sistema deve permitir a atualização do status de um livro (disponível, reservado, doado), refletindo o andamento do processo de doação.
 6. O sistema deve permitir a exclusão de um cadastro de livro pelo usuário doador responsável, caso ele deseje remover o item da lista.
 
-## 🗓️ Cronograma de Execução
+##  Cronograma de Execução
 
 | Data | Atividade | Responsável |
 |---|---|---|
@@ -28,7 +28,7 @@ Plataforma web para doação e reaproveitamento de livros, conectando pessoas qu
 | Semana 7 | Implementação do CRUD completo (Create, Read, Update, Delete) | [Nome 2] |
 | Semana 8 | Testes, ajustes finais e entrega da 2ª etapa | Todo o grupo |
 
-## 📁 Estrutura do Repositório
+##  Estrutura do Repositório
 
 ```
 relivro/
