@@ -21,11 +21,11 @@ Plataforma web para doação e reaproveitamento de livros, conectando pessoas qu
 | Data | Atividade | Responsável |
 |---|---|---|
 | Semana 1 | Definição do tema, ODS e levantamento de requisitos | Todo o grupo |
-| Semana 2 | Modelagem do Diagrama de Classe (UML) e do DER do banco | [Nome 1] |
-| Semana 3 | Justificativa técnica e estruturação do repositório GitHub | [Nome 2] |
+| Semana 2 | Modelagem do Diagrama de Classe (UML) e do DER do banco | [Joshua] |
+| Semana 3 | Justificativa técnica e estruturação do repositório GitHub | [Douglas] |
 | Semana 4 | Revisão geral, formatação do PDF e entrega da 1ª etapa | Todo o grupo |
-| Semana 5–6 | Implementação das classes (model) e conexão com banco | [Nome 1] |
-| Semana 7 | Implementação do CRUD completo (Create, Read, Update, Delete) | [Nome 2] |
+| Semana 5–6 | Implementação das classes (model) e conexão com banco | [João Campiolo] |
+| Semana 7 | Implementação do CRUD completo (Create, Read, Update, Delete) | [João Campiolo] |
 | Semana 8 | Testes, ajustes finais e entrega da 2ª etapa | Todo o grupo |
 
 ##  Estrutura do Repositório
@@ -40,5 +40,5 @@ relivro/
 ## 🛠️ Tecnologias
 
 - **Linguagem:** Java
-- **Banco de Dados:** [MySQL/PostgreSQL — defina qual vão usar]
+- **Banco de Dados:** [MySQL/SUPABASE]
 - **Arquitetura:** Camadas (model, dao, service)
