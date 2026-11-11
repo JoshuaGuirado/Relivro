@@ -1,0 +1,20 @@
+# Configuração local do banco (contém senha - NUNCA subir para o GitHub)
+db.properties
+
+# Saída do Maven / IDEs
+target/
+out/
+bin/
+*.class
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
