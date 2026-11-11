@@ -1,0 +1,17 @@
+# =========================================================
+# Copie este arquivo para "db.properties" (mesma pasta) e
+# preencha com os dados do seu banco.
+# O db.properties está no .gitignore: a senha não vai para o GitHub.
+# =========================================================
+
+# --- Opção A: PostgreSQL local (ou docker compose) ---
+db.url=jdbc:postgresql://localhost:5432/relivro
+db.user=postgres
+db.password=postgres
+
+# --- Opção B: Supabase ---
+# No painel do Supabase: botão "Connect" > aba "Session pooler".
+# Use o host, a porta e o usuário mostrados lá (o usuário é "postgres.<id-do-projeto>").
+# db.url=jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres?sslmode=require
+# db.user=postgres.SEU_ID_DO_PROJETO
+# db.password=SUA_SENHA_DO_BANCO

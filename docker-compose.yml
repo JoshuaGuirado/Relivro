@@ -1,0 +1,15 @@
+# Sobe um PostgreSQL local já com as tabelas e os dados de exemplo.
+# Uso: docker compose up -d
+services:
+  banco:
+    image: postgres:16
+    container_name: relivro-db
+    environment:
+      POSTGRES_DB: relivro
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./database/script.sql:/docker-entrypoint-initdb.d/01-script.sql:ro
+      - ./database/dados_exemplo.sql:/docker-entrypoint-initdb.d/02-dados_exemplo.sql:ro
